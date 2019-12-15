@@ -63,6 +63,7 @@ These are the special setup needed to support the Lambda function
     created Customer Managed Key
     put Twitter OAuth credentials in Lambda function Environment Variables and encrypted
     gave Lambda function permission to read/write S3
+    upload dependencires for requests and requests_oauthlib into lambda function
 This is how the cleaned file was created, starting from an OCR of a PDF of the book. 
     Trim beginning and end
     Manually break up all long lines that contain "FINITE AND INFINITE GAMES"
